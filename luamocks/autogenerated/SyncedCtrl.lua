@@ -992,6 +992,8 @@ function Spring.SetFeatureCollisionVolumeData(featureID, scaleX, scaleY, scaleZ,
 ---return nil
 function Spring.SetFeaturePieceCollisionVolumeData(featureID, pieceIndex, enable, scaleX, scaleY, scaleZ, offsetX, offsetY, offsetZ, Axis, volumeType[, primaryAxis]) end
 
+setats = Spring.SetFeaturePieceCollisionVolumeData(d, d, d, d, d, d, d, d, d)
+
 ---Parameters
 ---@param featureID number
 ---@param pieceIndex number
